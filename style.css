@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Inter';
+    font-family: 'poppins';
+}
+
+p{
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+
+/* header{
+    background-image: url(images/donation13.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+
+
+ header h1 {
+    color: #FFF;
+    text-align: center; 
+    font-family: 'Inter';
+    font-size: 65px;
+    font-style: normal; 
+    font-weight: 700;
+    line-height: normal; 
+
+
+header p{
+    color: #FFF;
+} 
+
+*/
+
+main{
+    margin: 0px 150px;
+}
+
+.donate-today{
+    margin: 130px 0px;
+}
+
+.today-top{
+
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 0px 120px;
+
+}
+.today-top h2{
+    color: #121212;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+
+}
+
+.today-top p {
+    color: #707070;
+}
+
+
+.today-middle{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+
+.today-middle h4 {
+    height: 125px;
+    
+    width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #FAFAFA;
+    color: #707070;
+}
+
+ #red-tk {
+    color:#FF5959;;
+    border-radius: 5px;
+    border: 2px solid #FF5959;
+    background: #FEE;
+}
+
+.today-bottom{
+    padding: 0px 120px;
+    text-align: center;
+}
+
+.today-bottom p{
+    color: #B3B3B3;
+    
+}
+
+
+hr{
+    color: #DADADA;
+    border: 1px solid;
+    margin: 10px 0 30px;
+   
+}
+
+button{
+    padding: 10px 15px ;
+    color: #FFFFFF;
+    background: #FF5959;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+/*                              donate paln  */
+
+.plan-top{
+    text-align: center;
+}
+
+
+.plan-top h2 {
+    color: #121212;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 45px;;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.plan-top p{
+    color: #707070;
+    
+}
+
+.plan-bottom-option{
+
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+
+
+}
+
+.plan-bottom-option .food{
+
+    border-radius: 10px;
+    background: rgba(79, 157, 166, 0.10);
+    padding: 50px 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+.plan-bottom-option .shelter{
+
+    border-radius: 10px;
+    background: rgba(255, 89, 89, 0.10);
+    padding: 50px 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+.plan-bottom-option .education{
+
+    border-radius: 10px;
+    background: #FFF4D6;
+    padding: 50px 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+
+
+
+
+.plan-bottom-option h4 {
+
+    margin: 30px 0 20px;
+    color: #121212;
+    font-family: Poppins;
+    font-size: 24px;
+    
+    font-weight: 600;
+    
+
+}
+
+.plan-bottom-option p{
+
+    color: #707070;
+    font-size: 16px;
+
+}
+
+
+
+
+/*                           two blog */
+
+.two-blogs{
+    margin-top: 125px;
+}
+
+
+.two-blogs h2{
+
+    color: #121212;
+    font-family: Inter;
+    font-size: 45px;
+    
+    font-weight: 700;
+    
+
+}
+
+.two-blogs p {
+
+    color: #707070;
+    margin-top: 20px;
+}
+
+.two-blogs button{
+    margin-top: 45px;
+}
+
+.first-blog , .second-blog{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.first-blog{
+
+    margin-bottom: 30px;
+}
+
+.first-blog div , .second-blog div{
+    width: 50%;
+    padding: 35px;
+}
+
+
+.first-right img , .second-left img{
+    width:100%; 
+}
+
+
+
+/*                                     bottom section           */
+
+.bottom-section{
+    margin: 125px 0px;
+    padding: 0px 100px;
+}
+
+.update{
+    text-align: center;
+    padding: 0px 100px;
+}
+
+.update h2{
+    
+    color: #121212;
+    /* text-align: center; */
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.update p{
+    color: #707070;
+}
+
+
+.subscribe{
+    background: #FFF4D6;
+    margin-top: 50px;
+    padding: 80px 190px;
+    
+}
+.subscribe div{
+    text-align: center;
+}
+
+.subscribe input {
+    border-radius: 5px 0px 0px 5px;
+    background: #D9D9D9;
+    border: none;
+    padding: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+   
+    
+}
+
+.subscribe button {
+    border: none;
+    margin-left: -4px ;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+
+
+
+/*                                foooter */
+
+footer{
+    background: #0B0D17;
+    overflow: auto;
+}
+
+
+footer div {
+    margin: 40px 0px;
+    text-align: center;
+}
+
+footer span {
+    color: #D9DBE1;
+    /* font-family: 'Manrope'; */
+    font-size: 14px;
+    font-weight: 400;
+}
